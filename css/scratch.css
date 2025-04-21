@@ -2,15 +2,17 @@
     text-align: center;
 }
 .header{
-    height:25px;
+ 
     background-color:rgb(89, 89, 250);
     color:white;
-    line-height:25px;
     text-align:center;
-    
-    left:1px;
-    right:1px;
+    left:0px;
+    width: 100%;
     Top:0px;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    z-index: 2;
 }
 
 body{
@@ -43,20 +45,12 @@ html {
     
 }  
 .links{
-    height:25px;
+   
     background-color:rgb(89, 89, 250);
     text-align: right;
     color:white;
-    
-    left:1px;
-    right:1px;
 }
-.lc{
-    color:white
-}
-.lc:hover{
-    color:blue
-}
+
 img{
     display:block;
     margin-left:auto;
@@ -67,4 +61,10 @@ img{
     border-top: 5px;
     text-align: left;
     font-family:'Times New Roman', Times, serif;
+}
+a:hover{
+    color:blue
+}
+a{
+    color:white;
 }
